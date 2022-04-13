@@ -9,6 +9,7 @@ from app.db.models import User
 def page_not_found(e):
     return render_template("404.html"), 404
 
+
 def create_app():
     """Create and configure an instance of the Flask application."""
     app = Flask(__name__)
